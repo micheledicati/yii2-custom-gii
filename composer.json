@@ -1,0 +1,28 @@
+{
+  "name": "micheledicati/mdgii",
+  "description": "Estensione privata Gii custom per Yii2 con best practices.",
+  "type": "private",
+  "keywords": ["yii2", "gii", "generator", "custom"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michele Dicati",
+      "email": "michele.dicati@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.0",
+    "yiisoft/yii2-gii": ">=2.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "micheledicati\\mdgii\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/micheledicati/yii2-custom-gii.git"
+    }
+  ]
+} 
